@@ -1,0 +1,44 @@
+/* Define variables for colors and font */
+:root {
+    --primary-color: #3498DB;
+    --background-color: #FFFFFF;
+    --secondary-background-color: #95A5A6;
+    --text-color: #000000;
+    --font-family: sans-serif;
+  }
+  
+  /* Apply styles using variables */
+  body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-family: var(--font-family);
+  }
+  
+  header {
+    background-color: var(--primary-color);
+    color: var(--background-color);
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: var(--background-color);
+    text-decoration: none;
+  }
+  
+  section {
+    background-color: var(--secondary-background-color);
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  footer {
+    background-color: var(--primary-color);
+    color: var(--background-color);
+    text-align: center;
+    padding: 10px 0;
+  }
+  
